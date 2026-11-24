@@ -8,3 +8,6 @@ Sprint Goal,
 Wireframes based on user stories,
 Class Diagrams,
 Sequence Diagrams,
+
+Sprint Goal: "A student is able to see the timetable as a week"
+From discussion, I've added a very simple sprint goal for now which we can always add to as the lecture slides said.
