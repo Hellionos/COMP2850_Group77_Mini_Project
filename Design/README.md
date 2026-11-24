@@ -2,9 +2,9 @@ Feel free to alter this file, I just want to keep track of all the tasks we need
 This design folder is for pretty much everything that's not actual coding (personas, class diagrams, sequential diagrams, sprints, etc).
 
 Checklist
-Personas
-User Stories -> Acceptance criteria (This is on the project board)
-Sprint Goal
-Wireframes based on user stories
-Class Diagrams
-Sequence Diagrams
+Personas,
+User Stories -> Acceptance criteria (This is on the project board),
+Sprint Goal,
+Wireframes based on user stories,
+Class Diagrams,
+Sequence Diagrams,
