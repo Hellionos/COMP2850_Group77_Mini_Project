@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Timetable</title>
+</head>
+<body>
+    <h1>Student Timetable</h1>
+    <p>Welcome to my timetable website.</p>
+
+    <form action="/" method="get">
+        <label for="day">Select a day:</label>
+
+        
+<select id="day" name="day">
+    <option value="Monday" {% if day == "Monday" %}selected{% endif %}>Monday</option>
+    <option value="Tuesday" {% if day == "Tuesday" %}selected{% endif %}>Tuesday</option>
+    <option value="Wednesday" {% if day == "Wednesday" %}selected{% endif %}>Wednesday</option>
+    <option value="Thursday" {% if day == "Thursday" %}selected{% endif %}>Thursday</option>
+    <option value="Friday" {% if day == "Friday" %}selected{% endif %}>Friday</option>
+</select>
+
+
+        <button type="submit">View Timetable</button>
+    </form>
+
+    <h2>{{ day }}</h2>
+
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Module</th>
+            <th>Room</th>
+        </tr>
+
+        {% for course in courses %}
+        <tr>
+            <td>{{ course.time }}</td>
+            <td>{{ course.module }}</td>
+            <td>{{ course.room }}</td>
+        </tr>
+        {% endfor %}
+
+    </table>
+</body>
+</html>
