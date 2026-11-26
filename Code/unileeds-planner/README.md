@@ -1,9 +1,1 @@
-# Task 4.3
-
-See the Ktor Web Development Guide for full details of this task.
-
-Run the application with
-
-    ./run
-
-Adjust the command as necessary if running on Windows.
+An initial go at the timetable page for the project.
