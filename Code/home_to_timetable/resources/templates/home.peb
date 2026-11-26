@@ -1,0 +1,11 @@
+{% extends "base.peb" %}
+{% block main %}
+
+<h1><img src="static/images/unileedslogo.jpg" alt="UniLeeds App Logo" class="logo-image"> Homepage</h1>
+    <p>Welcome to the homepage</p>
+
+    <form action="/timetable" method="get">
+    <button>Timetable</button>
+
+
+{% endblock %}
